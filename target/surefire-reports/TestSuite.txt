@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 86.055 s <<< FAILURE! - in TestSuite
+TestCases.TC_validatetitle.titletest[mngr398720, sYmUqYm](1)  Time elapsed: 47.049 s  <<< FAILURE!
+java.lang.AssertionError: expected [Add New Customer 123] but found [Add New Customer]
+	at TestCases.TC_validatetitle.titletest(TC_validatetitle.java:55)
+
+TestCases.TC_New_Cust_Pg.registeration[mngr398720, sYmUqYm](1)  Time elapsed: 57.138 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='name']"}
+  (Session info: chrome=100.0.4896.88)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-TCPDFOB', ip: '192.168.221.141', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [01de8c60dab72db8bd682f1f0984af71, findElement {using=xpath, value=//input[@name='name']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.88, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Salman\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49620}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49620/devtoo..., se:cdpVersion: 100.0.4896.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 01de8c60dab72db8bd682f1f0984af71
+	at TestCases.TC_New_Cust_Pg.registeration(TC_New_Cust_Pg.java:72)
+
+TestCases.TC_New_Cust_Pg.registeration[mngr398720, sYmUqYm](2)  Time elapsed: 8.163 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//input[@type="password"]"}
+  (Session info: chrome=100.0.4896.88)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-TCPDFOB', ip: '192.168.221.141', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [01de8c60dab72db8bd682f1f0984af71, findElement {using=xpath, value=//input[@type="password"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.88, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\Users\Salman\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49620}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49620/devtoo..., se:cdpVersion: 100.0.4896.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 01de8c60dab72db8bd682f1f0984af71
+	at TestCases.TC_New_Cust_Pg.registeration(TC_New_Cust_Pg.java:63)
+

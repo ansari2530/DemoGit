@@ -1,0 +1,6 @@
+19:54:25.187 [TestNG-tests-1] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0xee09e6b3dfbc5c18
+19:54:25.380 [TestNG-tests-1] INFO  Base.base - driver invoked successfully
+19:54:31.903 [TestNG-tests-1] INFO  Base.base - url invoked successfully
+19:54:36.813 [TestNG-tests-1] INFO  Base.base - Logged In successfully
+19:54:49.165 [TestNG-tests-1] INFO  Base.base - url invoked successfully
+19:54:52.068 [TestNG-tests-1] INFO  Base.base - Logged In successfully
