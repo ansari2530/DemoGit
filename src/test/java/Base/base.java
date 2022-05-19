@@ -103,4 +103,14 @@ public class base {
 	}
 	
 	
+	public void githubdemo() 
+	
+	{
+		
+		System.out.println("example 1");
+		System.out.println("example 1");
+	}
+	
+	
+	
 }
