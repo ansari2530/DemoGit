@@ -103,7 +103,7 @@ public class base {
 	}
 	
 	
-	public void githubdemo() 
+	public void githubdemo1() 
 	
 	{
 		
@@ -120,6 +120,23 @@ public class base {
 		
 	}
 	
+	
+public void githubdemo2() 
+	
+	{
+		
+		System.out.println("example 1");
+		System.out.println("example 1");
+		
+		System.out.println("modified by person 1");
+		System.out.println("modified by person 1");
+		System.out.println("modified by person 1");
+		System.out.println("modified by person 2");
+		System.out.println("modified by person 2");
+		System.out.println("modified by person 2");
+		
+		
+	}
 	
 	
 }
