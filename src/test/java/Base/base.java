@@ -113,9 +113,9 @@ public class base {
 		System.out.println("modified by person 1");
 		System.out.println("modified by person 1");
 		System.out.println("modified by person 1");
-		System.out.println("modified by person 1");
-		System.out.println("modified by person 1");
-		System.out.println("modified by person 1");
+		System.out.println("modified by person 2");
+		System.out.println("modified by person 2");
+		System.out.println("modified by person 2");
 		
 		
 	}
