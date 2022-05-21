@@ -21,7 +21,7 @@ public class extentreport {
 		extent.setSystemInfo("Tester", "Salman");
 		return extent;
 
-		//just checking the merge conflict example
+		
 		
 	}
 	
